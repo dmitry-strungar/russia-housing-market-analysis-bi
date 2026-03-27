@@ -4,7 +4,7 @@ The original dataset is not included directly in this repository.
 
 ## Reason
 
-The dataset is relatively large and hosted externally on Kaggle, which follows best practices for data handling in portfolio projects.
+The data file is significant in size and is located on an external source.
 
 ## Data Source
 
