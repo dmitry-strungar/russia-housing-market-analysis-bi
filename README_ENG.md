@@ -91,9 +91,22 @@ The report consists of 3 pages:
 
 ## Data Model
 
-- Single table with property listings  
-- Calculated metrics (price per m²)  
-- Grouped features (area, floors)  
+The data model includes one table:  
+
+- Real estate properties with the following characteristics:  
+ - Listing date  
+ - Price  
+ - Area, kitchen area in m²  
+ - Number of rooms  
+ - Floor, number of floors in the building  
+ - Building type, property type  
+ - Region ID, Street ID, House ID  
+ - Property coordinates  
+
+Additionally implemented:  
+
+- Price per m² calculation  
+- Grouping by area and number of floors  
 
 ---
 
