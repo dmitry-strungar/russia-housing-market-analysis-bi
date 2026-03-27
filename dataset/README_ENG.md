@@ -1,10 +1,12 @@
 # Dataset
 
-The original dataset is not included directly in this repository.
+The dataset and Power BI (.pbix) file are not included in this repository.
 
 ## Reason
 
-The data file is significant in size and is located on an external source.
+The Power BI file exceeds 100 MB, which is above GitHub’s file size limits.
+
+Therefore, the project cannot be uploaded directly to the repository.
 
 ## Data Source
 
@@ -27,4 +29,4 @@ The dataset contains information about residential real estate in Russia, includ
 
 ## Note
 
-To reproduce the analysis, download the dataset from the link above and connect it in Power BI.
+Dashboard screenshots are available in the `/screenshots` folder for reference.
