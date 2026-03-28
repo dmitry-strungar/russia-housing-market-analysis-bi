@@ -53,7 +53,7 @@ A data-driven tool is required to:
 
 - **Regional price differences exceed 2-3x**, highlighting strong geographic inequality.
 
-- **Top-15 regions account for the majority of listings**, indicating market concentration.
+- **Top-10 regions account for the majority of listings**, indicating market concentration.
 
 - **Floor level and building type affect price, but are secondary factors.**
 
