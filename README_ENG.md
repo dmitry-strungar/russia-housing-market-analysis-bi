@@ -45,7 +45,7 @@ A data-driven tool is required to:
 
 ## Key Insights
 
-- **Average property price is around 5.7M RUB, with price per m² at ~95-110K RUB.**
+- **Average property price is around 6.2M RUB, with price per m² at ~95-110K RUB.**
 
 - **1–2 room apartments account for over 60% of all listings**, indicating a mass-market focus.
 
