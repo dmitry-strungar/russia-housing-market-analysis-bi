@@ -2,15 +2,11 @@
 
 ## Price Analysis, Cost Drivers & Regional Insights
 
----
-
 ## Project Overview
 
 This project is a Power BI dashboard designed to analyze the Russian residential real estate market.
 
 It provides insights into pricing structure, key cost drivers, and regional differences.
-
----
 
 ## Business Context
 
@@ -23,8 +19,6 @@ A data-driven tool is required to:
 - Compare regions  
 - Understand market structure  
 
----
-
 ## Objectives
 
 - Analyze the Russian real estate market  
@@ -32,16 +26,12 @@ A data-driven tool is required to:
 - Explore regional differences  
 - Build an interactive dashboard  
 
----
-
 ## Analytical Approach
 
 - Aggregated metrics (average price, price per m², listings count)  
 - Data grouping (area, floors, rooms)  
 - Filtering and segmentation  
 - Outlier detection and handling  
-
----
 
 ## Key Insights
 
@@ -59,16 +49,12 @@ A data-driven tool is required to:
 
 - **Data anomalies were identified**, including zero prices, extreme values, and listings outside Russia.
 
----
-
 ## Business Value
 
 - Identifies key pricing drivers  
 - Enables regional comparison  
 - Supports investment decisions  
 - Improves market transparency  
-
----
 
 ## Stakeholders
 
@@ -77,8 +63,6 @@ A data-driven tool is required to:
 - Developers  
 - Business decision-makers  
 
----
-
 ## Dashboard Structure
 
 The report consists of 3 pages:
@@ -86,8 +70,6 @@ The report consists of 3 pages:
 1. Market Overview  
 2. Price Factor Analysis  
 3. Regional Analysis  
-
----
 
 ## Data Model
 
@@ -108,7 +90,20 @@ Additionally implemented:
 - Price per m² calculation  
 - Grouping by area and number of floors  
 
----
+## Stack of AI tools
+During the work on the project, AI tools were used to accelerate development and improve the effectiveness of analytics.:
+
+ChatGPT was used for:
+1) Generation of drafts of DAX measures for calculating the average price, price per m2 and segmentation of objects by price categories (Economy / Comfort / Business / Premium)
+2) Prototyping the logic of anomaly processing in Power Query (identification and filtering of zero prices, extreme values, objects outside the Russian Federation)
+3) Searching for ideas for visualizing regional differentiation and cost factors (area, floor, building type, number of rooms)
+
+DeepSeek was used for:
+1) Improvements and optimizations of DAX expressions (checking the filtering context, eliminating errors in calculating dynamic measures)
+2) Checking the logic of grouping data by area segments and calculating the price per m2, taking into account regional filters
+3) Preparing descriptions of key insights for dashboard documentation (structuring conclusions by region, factors, and anomalies)
+
+All the key steps - designing the data model, setting up relationships, visualizing and interpreting the results - were performed independently. AI was used as a tool to accelerate the development and verification of hypotheses.
 
 ## Tech Stack
 
@@ -116,20 +111,14 @@ Additionally implemented:
 - Power Query  
 - DAX  
 
----
-
 ## Dashboard Preview
 
 Screenshots are available in `/screenshots`
-
----
 
 ## Dataset
 
 Source: Kaggle  
 Dataset link is provided in `/dataset`
-
----
 
 ## Skills Demonstrated
 
